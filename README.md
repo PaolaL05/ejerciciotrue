@@ -1,29 +1,5 @@
-# ejerciciotrue
+#El presente proyecto consiste en una aplicacion web desarrollada con el framework VUEJs 
+#que al importar un archivo json genera un componente que por medio de HTML y JavaScript
+#genera tarjetas de identificacion dinamicamente.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#El archivo Json debe ser cargado desde el codigo para que funcione adecuadamente.
