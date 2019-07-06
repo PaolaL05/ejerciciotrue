@@ -44,4 +44,19 @@ li {
 a {
   color: #42b983;
 }
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+  margin: 50px;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
 </style>
