@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="actRep"> Repositorios </button>
+    <HelloWorld v-if="activeBool" msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
@@ -10,8 +10,18 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
+  data() {
+    return{
+    activeBool:false
+    }
+  },
   components: {
     HelloWorld
+  },
+  methods: {
+    actRep(){      
+      this.activeBool = !this.activeBool
+    }
   }
 }
 </script>
